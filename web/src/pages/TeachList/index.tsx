@@ -3,6 +3,7 @@ import React from "react";
 import PageHeader from "../../components/PageHeader/index";
 
 import "./styles.css";
+import TeacherItem from "../../components/TeacherItem";
 
 const TeachList: React.FC = () => {
   return (
@@ -25,6 +26,12 @@ const TeachList: React.FC = () => {
           </div>
         </form>
       </PageHeader>
+
+      <main>
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+      </main>
     </div>
   );
 };
